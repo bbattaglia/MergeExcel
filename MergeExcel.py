@@ -3,9 +3,6 @@ import pandas as pd
 path = "C:/Users/bbattaglia/ICONSULTING S.p.A/Moncler - Documents/Progetti/MONCDC - payment control - 23/Sviluppo/Claims/2022"
 files = os.listdir(path) 
 
-## Method 1 gets the first sheet of a given file
-
-
 df = pd.DataFrame()
 dfs = [] # lista vuota per contenere i dataframe
 for file in files:
